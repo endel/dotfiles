@@ -7,7 +7,7 @@ It includes
 ---
 
 Bash status, with current git brach/status:
-[!screenshot]
+![PS1 Status](https://github.com/endel/dotfiles/raw/master/example/ps1-status.png)
 
 Aditional ctags configuration, for:
   - ActionScript
