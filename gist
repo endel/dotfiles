@@ -1,0 +1,4 @@
+#!/bin/env bash
+
+export GITHUB_USER="your github username here"
+export GITHUB_TOKEN="your github token"
