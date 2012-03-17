@@ -6,9 +6,9 @@ Usage
 
 Clone this repository, and run rake to install it.
 
-  git clone https://github.com/endel/dotfiles.git
-  cd dotfiles
-  rake
+    git clone https://github.com/endel/dotfiles.git
+    cd dotfiles
+    rake
 
 What is included
 ---
