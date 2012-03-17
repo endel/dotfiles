@@ -1,0 +1,6 @@
+#!/bin/env bash
+
+alias binstall="bundle install --binstubs"
+alias r="rails"
+alias rk="rake"
+alias o="open"
