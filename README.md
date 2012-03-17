@@ -1,12 +1,20 @@
-My personal dotfiles
+My personal dotfiles for Mac OS X
 ===
 
-Installation: just run <code>rake</code>, and all files will be at your user path.
+Usage
+---
 
-It includes
+Clone this repository, and run rake to install it.
+
+  git clone https://github.com/endel/dotfiles.git
+  cd dotfiles
+  rake
+
+What is included
 ---
 
 Bash status, with current git brach/status:
+
 ![PS1 Status](https://github.com/endel/dotfiles/raw/master/example/ps1-status.png)
 
 Aditional ctags configuration, for:
