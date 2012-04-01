@@ -1,8 +1,8 @@
 
 # Generate tags file
 def update_ctags!
-  File.open('~/.ctags', 'w+') do |f|
-    f.write Dir['ctags/*'].collect {|c| "source ~/dotfiles/ctags/#{c}" }.join("\n")
+  File.open(File.expand_path('~/.ctags'), 'w+') do |f|
+    f.write Dir['ctags/*'].collect {|c| open(c).read }.join("\n")
   end
 end
 
@@ -10,9 +10,10 @@ task :default do
   update_ctags!
 
   # source file linkers
-  ['vimrc', 'gvimrc', 'bash_profile'].each do |dotfile|
-    File.open("~/.#{dotfile}", 'w+') do |f|
-      f.write("source ~/.vim/#{dotfile}")
+  not_dotfile = ['Rakefile', 'README.md']
+  ['vimrc', 'bash_profile'].each do |dotfile|
+    File.open(File.expand_path("~/.#{dotfile}"), 'w+') do |f|
+      f.write("source ~/dotfiles/#{dotfile}")
     end
   end
 
