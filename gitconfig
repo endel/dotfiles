@@ -1,0 +1,5 @@
+[user]
+	name = Endel Dreyer
+	email = endel.dreyer@gmail.com
+[core]
+	excludesfile = /Users/endel/.gitignore
