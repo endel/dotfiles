@@ -2,6 +2,7 @@
 
 alias mkdir="mkdir -p"
 alias dutree="du -s -m *"
+alias ls='ls -G'
 
 # Ruby / RVM
 alias binstall="bundle install --binstubs"
@@ -13,5 +14,4 @@ alias o="open"
 # gem install localtunnel
 #   Example: turn your 3000 public into the WWW.
 #     lt 3000
-
 alias lt="localtunnel -k ~/.ssh/id_rsa.pub "
