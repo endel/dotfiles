@@ -10,16 +10,22 @@ end
 task :default do
   update_ctags!
 
-  # source file linkers
-  ['vimrc', 'bash_profile'].each do |dotfile|
+  #
+  # Link dynamic files to home directory
+  #
+  ['vimrc', 'bash_profile', 'inputrc'].each do |dotfile|
     File.open(File.expand_path("~/.#{dotfile}"), 'w+') do |f|
       f.write("source ~/dotfiles/#{dotfile}")
     end
   end
 
-  Dir['git*'].each do |gitfile|
-    File.open(File.expand_path("~/.#{gitfile}"), 'w+') do |f|
-      f.write(open(gitfile).read)
+  #
+  # Copy raw files to home directory
+  #
+  raw_copy_file_list = FileList['git*'] + ['inputrc']
+  raw_copy_file_list.each do |file|
+    File.open(File.expand_path("~/.#{file}"), 'w+') do |f|
+      f.write(open(file).read)
     end
   end
 

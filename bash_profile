@@ -2,11 +2,13 @@
 
 # Helpers
 source ~/dotfiles/history
-source ~/dotfiles/vi_mode
 source ~/dotfiles/ps1
 source ~/dotfiles/gist
-source ~/dotfiles/git
 source ~/dotfiles/bash_aliases
+
+# VI mode! Yey!
+set -o vi
+git config --global core.editor "/usr/bin/vim"
 
 # User bin path
 export PATH=$PATH:/$HOME/bin
