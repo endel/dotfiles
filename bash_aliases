@@ -9,6 +9,10 @@ alias binstall="bundle install --binstubs"
 alias r="rails"
 alias rk="rake"
 alias o="open"
+alias pwdc="pwd | pbcopy"
+
+# Readline wrapper
+alias rlw="rlwrap -a dummy "
 
 # localtunnel (https://github.com/progrium/localtunnel)
 # gem install localtunnel
