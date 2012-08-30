@@ -4,6 +4,7 @@
 source ~/dotfiles/history
 source ~/dotfiles/ps1
 source ~/dotfiles/gist
+source ~/dotfiles/bash_functions
 source ~/dotfiles/bash_aliases
 
 # VI mode! Yey!

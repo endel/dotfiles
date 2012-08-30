@@ -14,6 +14,9 @@ alias pwdc="pwd | pbcopy"
 # Readline wrapper
 alias rlw="rlwrap -a dummy "
 
+# DNS
+alias dnsflush="dscacheutil -flushcache"
+
 # localtunnel (https://github.com/progrium/localtunnel)
 # gem install localtunnel
 #   Example: turn your 3000 public into the WWW.

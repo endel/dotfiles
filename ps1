@@ -16,4 +16,4 @@ RESET="\[\033[0;00m\]"
 PURPLE="\[\033[01;34m\]"
 
 GIT_PS1_SHOWDIRTYSTATE=1
-PS1="$GREEN\u:$PURPLE\w$MAGENTA\$(__git_ps1 ' [%s] ')$DEFAULT\$ "
+PS1="$GREEN\u:$PURPLE\w$MAGENTA\$(__git_ps1 ' [%s] ')\n$DARK_GRAY\$ $DEFAULT"
