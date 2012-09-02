@@ -7,8 +7,14 @@ def update_ctags!
   end
 end
 
+def update_modules!
+  %x(git submodule update --init)
+  %x(git submodule foreach git pull origin master)
+end
+
 task :default do
   update_ctags!
+  update_modules!
 
   #
   # Link dynamic files to home directory

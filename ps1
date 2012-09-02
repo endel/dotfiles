@@ -1,8 +1,5 @@
 #!/bin/env bash
 
-# Include git-completion
-source ~/dotfiles/support/git-completion.bash
-
 DARK_GRAY="\[\033[1;30m\]"
 RED="\[\033[1;31m\]"
 GREEN="\[\033[1;32m\]"
@@ -16,4 +13,4 @@ RESET="\[\033[0;00m\]"
 PURPLE="\[\033[01;34m\]"
 
 GIT_PS1_SHOWDIRTYSTATE=1
-PS1="$GREEN\u:$PURPLE\w$MAGENTA\$(__git_ps1 ' [%s] ')\n$DARK_GRAY\$ $DEFAULT"
+PS1="$YELLOW[\$(date +%k:%M:%S)] $GREEN\u:$PURPLE\w$MAGENTA\$(__git_ps1 ' [%s] ')\n$DARK_GRAY\$ $DEFAULT"

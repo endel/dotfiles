@@ -1,11 +1,17 @@
 #!/bin/env bash
 
+# brew install bash-completions
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
 # Helpers
 source ~/dotfiles/history
-source ~/dotfiles/ps1
 source ~/dotfiles/gist
 source ~/dotfiles/bash_functions
 source ~/dotfiles/bash_aliases
+source ~/dotfiles/bash_plugins
+source ~/dotfiles/ps1
 
 # VI mode! Yey!
 set -o vi
