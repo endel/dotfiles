@@ -3,7 +3,6 @@
 for plugin_path in ~/dotfiles/plugins/*; do
   for plugin_source in $plugin_path/*.*sh; do
     if [ -f $file1 ] && [ $file1 != $file2 ]; then
-      echo $plugin_source
       source $plugin_source
     fi
   done

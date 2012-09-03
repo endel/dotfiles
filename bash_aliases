@@ -3,13 +3,14 @@
 alias mkdir="mkdir -p"
 alias dutree="du -s -m *"
 alias ls='ls -G'
+alias pwdc="pwd | pbcopy"
 
 # Ruby / RVM
 alias binstall="bundle install --binstubs"
 alias r="rails"
 alias rk="rake"
 alias o="open"
-alias pwdc="pwd | pbcopy"
+alias jspec="bundle exec jasmine-headless-webkit --color"
 
 # Readline wrapper
 alias rlw="rlwrap -a dummy "
