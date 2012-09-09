@@ -14,6 +14,10 @@ alias jspec="bundle exec jasmine-headless-webkit --color"
 
 # Readline wrapper
 alias rlw="rlwrap -a dummy "
+alias irb="rlw irb"
+alias jsc="rlw jsc"
+alias mongo="rlw mongo"
+alias redis-cli="rlw redis-cli"
 
 # DNS
 alias dnsflush="dscacheutil -flushcache"
