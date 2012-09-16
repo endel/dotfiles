@@ -1,3 +1,6 @@
 [submodule "plugins/z"]
 	path = plugins/z
 	url = https://github.com/rupa/z.git
+[submodule "support/iterm-colors/hardcore"]
+	path = support/iterm-colors/hardcore
+	url = https://github.com/hardcore/iTerm-colors.git

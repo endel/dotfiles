@@ -1,9 +1,11 @@
 #!/bin/env bash
 
+# System
 alias mkdir="mkdir -p"
 alias dutree="du -s -m *"
 alias ls='ls -G'
 alias pwdc="pwd | pbcopy"
+alias dnsflush="dscacheutil -flushcache"
 
 # Ruby / RVM
 alias binstall="bundle install --binstubs"
@@ -12,15 +14,19 @@ alias rk="rake"
 alias o="open"
 alias jspec="bundle exec jasmine-headless-webkit --color"
 
+# Git
+alias gi="git"
+
+#
+# Utils
+#
+
 # Readline wrapper
 alias rlw="rlwrap -a dummy "
 alias irb="rlw irb"
 alias jsc="rlw jsc"
 alias mongo="rlw mongo"
 alias redis-cli="rlw redis-cli"
-
-# DNS
-alias dnsflush="dscacheutil -flushcache"
 
 # localtunnel (https://github.com/progrium/localtunnel)
 # gem install localtunnel

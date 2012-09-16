@@ -1,5 +1,29 @@
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  lg = log -p
+  lgr = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  last = log --oneline -n 1
+  summary = log --abbrev-commit --pretty=oneline --since=last.mon --reverse
 [user]
-	name = Endel Dreyer
-	email = endel.dreyer@gmail.com
+  email = endel.dreyer@gmail.com
+  name = Endel Dreyer
+[github]
+  user = endel
+[diff "image"]
+  textconv = identify
 [core]
-	excludesfile = /Users/endel/.gitignore
+  editor = /usr/bin/vim
+  excludesfile = /Users/endel/dotfiles/gitignore
+[color]
+  ui = auto
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  grep = auto
+[help]
+  autocorrect = 10
