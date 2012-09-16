@@ -1,4 +1,5 @@
 [alias]
+  ps = push
   st = status
   ci = commit
   br = branch
