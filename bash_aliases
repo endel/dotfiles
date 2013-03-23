@@ -15,7 +15,7 @@ alias o="open"
 alias jspec="bundle exec jasmine-headless-webkit --color"
 
 # Git
-alias gi="git"
+alias g="git"
 
 #
 # Utils
