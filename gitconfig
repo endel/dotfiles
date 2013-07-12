@@ -1,4 +1,6 @@
 [alias]
+  a = add
+  pl = pull
   ps = push
   st = status
   ci = commit
@@ -9,6 +11,7 @@
   lgr = log --graph --decorate --pretty=oneline --abbrev-commit --all
   last = log --oneline -n 1
   summary = log --abbrev-commit --pretty=oneline --since=last.mon --reverse
+  undo = reset --soft HEAD~1
 [user]
   email = endel.dreyer@gmail.com
   name = Endel Dreyer
