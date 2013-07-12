@@ -6,6 +6,7 @@ alias dutree="du -s -m *"
 alias ls='ls -G'
 alias pwdc="pwd | pbcopy"
 alias dnsflush="dscacheutil -flushcache"
+alias l="ls -las"
 
 # Ruby / RVM
 alias binstall="bundle install --binstubs"
@@ -15,11 +16,13 @@ alias o="open"
 alias jspec="bundle exec jasmine-headless-webkit --color"
 
 # Git
-alias gi="git"
+alias g="git"
 
 #
 # Utils
 #
+
+alias serve="python -m SimpleHTTPServer"
 
 # Readline wrapper
 alias rlw="rlwrap -a dummy "
