@@ -19,7 +19,7 @@ task :default do
   #
   # Link dynamic files to home directory
   #
-  ['vimrc', 'bash_profile', 'inputrc'].each do |dotfile|
+  ['vimrc', 'bash_profile', 'inputrc', 'ackrc'].each do |dotfile|
     File.open(File.expand_path("~/.#{dotfile}"), 'w+') do |f|
       f.write("source ~/dotfiles/#{dotfile}")
     end
