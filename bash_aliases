@@ -15,6 +15,9 @@ alias rk="rake"
 alias o="open"
 alias jspec="bundle exec jasmine-headless-webkit --color"
 
+# PHP
+alias artisan="php artisan" # laravel
+
 # Git
 alias g="git"
 
