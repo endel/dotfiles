@@ -28,7 +28,7 @@ task :default do
   #
   # Copy raw files to home directory
   #
-  raw_copy_file_list = FileList['git*'] + ['inputrc']
+  raw_copy_file_list = FileList['git*'] + ['inputrc', 'editorconfig']
   raw_copy_file_list.each do |file|
     File.open(File.expand_path("~/.#{file}"), 'w+') do |f|
       f.write(open(file).read)
