@@ -40,3 +40,6 @@ alias redis-cli="rlw redis-cli"
 #   Example: turn your 3000 public into the WWW.
 #     lt 3000
 alias lt="localtunnel -k ~/.ssh/id_rsa.pub "
+
+# shortcut to iphone simulator
+alias iphone="open -a iPhone\ Simulator"
