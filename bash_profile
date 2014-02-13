@@ -16,7 +16,6 @@ source ~/dotfiles/php
 
 # VI mode! Yey!
 set -o vi
-git config --global core.editor "/usr/bin/vim"
 
 # user bin path
 export PATH=$PATH:/$HOME/bin
