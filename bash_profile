@@ -17,11 +17,20 @@ source ~/dotfiles/php
 # VI mode! Yey!
 set -o vi
 
+# lang/utf8
+export LC_ALL=en_US.UTF8
+export LANG=en_US.UTF8
+
+# term
+export TERM=xterm-256color
+
 # user bin path
 export PATH=$PATH:/$HOME/bin
 
 # export MAMP's lastest PHP version.
 export PATH=$PATH:/Applications/MAMP/bin/php/php5.5.3/bin
+
+export PATH=$PATH:/Users/endel/Projects/emscripten
 
 export LOLCOMMITS_DELAY=2
 
