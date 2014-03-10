@@ -4,8 +4,7 @@ source ~/.vim/vimrc
 let g:snips_author = $USER
 
 " Configure Gist plugin
-let g:github_user = $GITHUB_USER
-let g:github_token = $GITHUB_TOKEN
+let g:github_user = $USER
 let g:gist_detect_filetype = 1
 let g:gist_open_browser_after_post = 1
 

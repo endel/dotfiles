@@ -7,7 +7,6 @@ fi
 
 # helpers
 source ~/dotfiles/history
-source ~/dotfiles/gist
 source ~/dotfiles/bash_functions
 source ~/dotfiles/bash_aliases
 source ~/dotfiles/bash_plugins
