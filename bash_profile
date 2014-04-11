@@ -11,14 +11,16 @@ source ~/dotfiles/bash_functions
 source ~/dotfiles/bash_aliases
 source ~/dotfiles/bash_plugins
 source ~/dotfiles/ps1
-source ~/dotfiles/php
 
 # VI mode! Yey!
 set -o vi
 
 # lang/utf8
-export LC_ALL=en_US.UTF8
-export LANG=en_US.UTF8
+# export LC_ALL=en_US.UTF8
+# export LANG=en_US.UTF8
+
+# editor
+export EDITOR=vim
 
 # term
 export TERM=xterm-256color
