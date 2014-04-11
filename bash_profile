@@ -28,9 +28,6 @@ export TERM=xterm-256color
 # user bin path
 export PATH=$PATH:/$HOME/bin
 
-# export MAMP's lastest PHP version.
-export PATH=$PATH:/Applications/MAMP/bin/php/php5.5.3/bin
-
 export PATH=$PATH:/Users/endel/Projects/emscripten
 
 export LOLCOMMITS_DELAY=2
