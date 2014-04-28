@@ -16,7 +16,6 @@ alias o="open"
 alias jspec="bundle exec jasmine-headless-webkit --color"
 
 # PHP
-alias composer="composer.phar"
 alias artisan="php artisan" # laravel
 
 # Git
