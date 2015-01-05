@@ -25,14 +25,18 @@ alias g="git"
 # Utils
 #
 alias tcpd80="sudo tcpdump -s 0 -A -i lo0 -v 'tcp port 80 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)'"
+alias tcpd="sudo tcpdump -s 0 -A -i en1 -v 'tcp port 80 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)'"
+alias tcpd8080="sudo tcpdump -s 0 -A -i lo0 -v 'tcp port 8080 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)'"
 alias serve="python -m SimpleHTTPServer"
 
 # Readline wrapper
 alias rlw="rlwrap -a dummy "
 alias irb="rlw irb"
-alias jsc="rlw jsc"
 alias mongo="rlw mongo"
 alias redis-cli="rlw redis-cli"
+
+# JavaScript
+alias jsc="rlw /System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc"
 
 # localtunnel (https://github.com/progrium/localtunnel)
 # gem install localtunnel
