@@ -5,18 +5,10 @@ end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = true
 
-[*.py]
+[*.{php,swift,py}]
 indent_style = space
 indent_size = 4
 
-[*.php]
-indent_style = tab
-indent_size = 2
-
-[*.{js,json}]
-indent_style = space
-indent_size = 2
-
-[*.rb]
+[*.{rb,js,json}]
 indent_style = space
 indent_size = 2
