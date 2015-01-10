@@ -31,3 +31,5 @@
   grep = auto
 [help]
   autocorrect = 10
+[push]
+  default = current
