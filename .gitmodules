@@ -9,4 +9,4 @@
 	url = https://github.com/mattly/iterm-colors-pencil.git
 [submodule "support/powerline-fonts"]
 	path = support/powerline-fonts
-	url = https://github.com/Lokaltog/powerline-fonts.git
+	url = https://github.com/powerline/fonts.git

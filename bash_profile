@@ -9,7 +9,7 @@ fi
 source ~/dotfiles/history
 source ~/dotfiles/bash_functions
 source ~/dotfiles/bash_aliases
-# source ~/dotfiles/bash_plugins
+source ~/dotfiles/bash_plugins
 source ~/dotfiles/ps1
 
 # VI mode! Yey!
