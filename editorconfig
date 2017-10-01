@@ -10,7 +10,11 @@ indent_size = 2
 [*.{php,swift,py}]
 indent_size = 4
 
-[*.{java}]
+[*.{rb,js,json,yaml,yml}]
+indent_style = space
+indent_size = 2
+
+[*.{c,cpp,h,java}]
 indent_style = tab
 
 [Makefile]

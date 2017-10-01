@@ -28,12 +28,7 @@ export TERM=xterm-256color
 # user bin path
 export PATH=$PATH:/$HOME/bin
 
-export PATH=$PATH:/Users/endel/Projects/emscripten
-
 export LOLCOMMITS_DELAY=2
 
 # setup rvm.io
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-# load node version manager
-source ~/.nvm/nvm.sh
